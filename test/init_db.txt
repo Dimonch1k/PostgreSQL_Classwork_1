@@ -1,0 +1,34 @@
+-- DROP TABLE IF EXISTS users;
+-- DROP TABLE IF EXISTS workers;
+
+-- CREATE TABLE users (
+	-- id SERIAL PRIMARY KEY,
+	-- name varchar(255) NOT NULL,
+	-- age INT NOT NULL
+-- );
+
+-- CREATE TABLE workers (
+	-- id SERIAL PRIMARY KEY,
+	-- name varchar(255) NOT NULL
+	
+-- );
+
+-- INSERT INTO users (name, age) VALUES 
+-- ('John', 1),
+-- ('Jake', 2),
+-- ('Josh', 3),
+-- ('Drake', 4);
+
+-- INSERT INTO workers (name) VALUES 
+-- ('Bill'),
+-- ('Will'),
+-- ('Tim'),
+-- ('Mike');
+
+
+-- SELECT id, name
+-- FROM users
+-- UNION
+-- SELECT id, name
+-- FROM workers
+-- ORDER BY id;
